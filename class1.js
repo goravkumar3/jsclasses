@@ -10,6 +10,5 @@ console.log("Subtract : "+(a-c))
 console.log("MUltiplication : "+a*c)
 console.log("Divide : "+a/c)
 console.log("Module : "+a%c)
-
 var p=prompt("What is your name?")
 alert("Welcome "+p)
