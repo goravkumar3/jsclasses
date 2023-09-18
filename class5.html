@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slider{
+            position: relative;
+        }
+        .slider img{
+            width: 100%;
+            height: 400px;
+        }
+        .next{
+            all: unset;
+            position: absolute; 
+            left: 20px;
+            top: 40%;
+            font-size: 40px;
+            cursor: pointer;
+        }
+        
+        .prev{
+            all: unset;
+            position: absolute; 
+            right: 20px;
+            top: 40%;
+            font-size: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <img src="../web/media/introimage.avif" alt="">
+        <button class="next">&laquo;</button>
+        <button class="prev">&raquo;</button>
+    </div>
+</body>
+</html>
