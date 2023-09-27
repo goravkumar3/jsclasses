@@ -1,4 +1,3 @@
-
 do {
     var a = prompt("Enter first number");
 var s = prompt("Enter operator +,-,*,/");
